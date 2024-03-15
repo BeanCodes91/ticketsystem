@@ -19,9 +19,8 @@ public class Stand {
 	
 	
 	public Stand() {}
-	public Stand(String name, Set<Game> games, Set<Area> areas) {
+	public Stand(String name, Set<Area> areas) {
 		this.name = name;
-		this.games = games;
 		this.areas = areas;
 	}
 	

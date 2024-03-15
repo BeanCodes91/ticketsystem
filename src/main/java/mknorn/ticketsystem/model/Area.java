@@ -20,12 +20,11 @@ public class Area {
 	
 	
 	public Area() {}
-	public Area(String name, boolean seated, double price, Stand stand, Set<Block> blocks) {
+	public Area(String name, boolean seated, double price, Stand stand) {
 		this.name = name;
 		this.seated = seated;
 		this.price = price;
 		this.stand = stand;
-		this.blocks = blocks;
 	}
 	
 	
